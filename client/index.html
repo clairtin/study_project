@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Finder</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    #images { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px; }
+    img { max-width: 200px; max-height: 200px; border: 1px solid #ddd; }
+  </style>
+</head>
+<body>
+  <h1>Image Finder</h1>
+  <form id="searchForm">
+    <input type="text" id="keyword" placeholder="Enter keyword (e.g., espresso)" required />
+    <button type="submit">Search</button>
+  </form>
+  <div id="status"></div>
+  <div id="images"></div>
+  <script src="script.js"></script>
+</body>
+</html>

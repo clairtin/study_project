@@ -1,0 +1,11 @@
+{
+  "cappuccino": [
+    "https://api.unsplash.com/search/photos?query=cappuccino&client_id=YOUR_ACCESS_KEY"
+  ],
+  "espresso": [
+    "https://api.unsplash.com/search/photos?query=espresso&client_id=YOUR_ACCESS_KEY"
+  ],
+  "latte": [
+    "https://api.unsplash.com/search/photos?query=latte&client_id=YOUR_ACCESS_KEY"
+  ]
+}

@@ -38,3 +38,4 @@ app.get('/keywords/:key', async (req, res) => {
 app.listen(PORT, () => {
   console.log(`Сервер запущен на http://localhost:${PORT}`);
 });
+
